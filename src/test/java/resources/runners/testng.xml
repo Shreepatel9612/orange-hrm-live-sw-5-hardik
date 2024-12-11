@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.orangehrmlive.demo.customlisteners.CustomListeners"></listener>
+    </listeners>
+
+    <test name="Login Test" >
+        <classes>
+            <class name="com.orangehrmlive.demo.testsuite.UserTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
